@@ -1,0 +1,13 @@
+This is a test of i18n extraction code.
+<%- gt.textdomain("et", "This is not to be translated") %>
+<%- _("This is localised text") %>
+<%- _("This is localised text with a hard-coded parameter:", "param") %>
+<%- _("This is localised text with a variable parameter:", somevar) %>
+<%- gt.dgettext("en", "This is text to output in English") %>
+<%- gt.dgettext("en", avariable) %>
+<%- gt.dgettext("zh_CN", "This is text to output in Chinese") %>
+<%- gt.ngettext("This is text without a plural form", "This is text with %d plural forms", count) %>
+<%- gt.dngettext("zh_CN", "This is Chinese text without a plural form", "This is Chinese text with %d plural forms", count) %>
+<%- gt.gtmeth("This is an additional gt method") %>
+<%- gtfunc("This is an additional gt global function", 0, "...with some odd params...", "<not localised>", "<this is>", "not") %>
+<%- nongt("This isn't to be translated either") %>

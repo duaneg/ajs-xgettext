@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var extractor = require("../lib/extract");
+
+extractor.cli(undefined, function(err) {
+    if (err) {
+        console.error(err);
+        process.exit(1);
+    }
+});
