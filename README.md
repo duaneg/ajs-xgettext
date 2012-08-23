@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/duaneg/ajs-xgettext.png)](http://travis-ci.org/duaneg/ajs-xgettext)
 # ajs-xgettext
 
 A utility for extracting localised text from [AJS](https://github.com/kainosnoema/ajs) templates (and probably other EJS-style templates). Extracted text is stored in the standard PO template format.
